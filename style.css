@@ -40,17 +40,44 @@ h1 span {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 60px 20px;
+    padding: 40px 20px;
     border: 1px solid red;
     box-sizing: border-box;
     text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.7);
+    color: rgb(13, 247, 255);
+    background: rgba(12, 3, 136, 0.7);
     transform: rotateY(90deg);
     transition: all 0.5s ease-in-out 0s;
 
 }
 
+.box-content img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+}
+
 .box:hover .box-content {
     transform: rotateY(0)
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out 0s;
+    
 }
